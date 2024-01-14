@@ -1,0 +1,11 @@
+#player1,
+#player2 {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

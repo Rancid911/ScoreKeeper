@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Score Keeper</title>
+ 
+<link rel="stylesheet" href="./app.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+<container class="container pt-5">
+  <div class="card mx-auto" style="width: 32rem;" >
+    <img src="https://img.freepik.com/free-vector/people-playing-table-tennis_23-2148662482.jpg?w=996&t=st=1684144990~exp=1684145590~hmac=f0bc08eb7691a74f8d89d7be015daf54d5a8f56dd674893e9c2872805c74d428" class="card-img-top" alt="...">
+    <div class="card-body p-0">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item h6">Ping Pong Score Keeper</li>
+      <li class="list-group-item">
+        <div id="player1"></div>
+        <span>to</span>
+        <div id="player2" ></div>
+        <p> Use the buttons below to keep score.</p>
+        <select id="playto" class="form-select form-select-sm" aria-label=".form-select-sm example">
+    <option selected>Playing To</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+  </select> 
+      </li>
+      
+      <li class="list-group-item p-0">
+     <div class="btn-group d-flex" role="group" aria-label="Basic mixed styles example">
+    <button type="button" class="btn btn-danger flex-fill" >+1 PLAYER ONE</button>
+    <button type="button" class="btn btn-warning flex-fill">+1 PLAYER TWO</button>
+    <button type="button" class="btn btn-success flex-fill">RESET</button>
+  </div>
+      </li>
+    </ul>
+  </div>
+     
+    
+        
+    </div>
+  </div>
+  
+  </container>
+
+  <script src="./index.js"></script>
+</body>
+</html>
